@@ -57,7 +57,7 @@ def tts(text,
     np.random.seed(random_seed)
 
     text_len = len(text)
-    if text_len > 200:
+    if text_len > 20000000000000000000:
         raise gr.Error("Text length limited to 200 characters for this demo. Current text length is " + str(text_len))
        
     else:
